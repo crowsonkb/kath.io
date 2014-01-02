@@ -1,6 +1,11 @@
 Katherine Crowson
 =================
 
+About me
+--------
+
+My GitHub profile: <https://github.com/crowsonkb>
+
 Email address
 -------------
 
