@@ -1,3 +1,16 @@
+# Signature Algorithm=
+# Serial=45EB2C19B76CD09D09B59036274F10C6
+# Subject=/OU=Domain Control Validated/OU=PositiveSSL/CN=kath.io
+# Issuer=
+#  C=GB
+#  ST=Greater Manchester
+#  L=Salford
+#  O=COMODO CA Limited
+#  CN=PositiveSSL CA 2
+# NotBefore=Thu, 02 Jan 2014 00:00:00 GMT
+# NotAfter=Fri, 02 Jan 2015 23:59:59 GMT
+# Fingerprint (SHA-1)=2971EE96381E5AC151DB6D5066EBDAB3A4CED683
+
 -----BEGIN CERTIFICATE-----
 MIIE6TCCA9GgAwIBAgIQRessGbds0J0JtZA2J08QxjANBgkqhkiG9w0BAQUFADBz
 MQswCQYDVQQGEwJHQjEbMBkGA1UECBMSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYD
@@ -27,6 +40,23 @@ HToh0r9zlDKH4RZw54uwNYTCjeNQuezOBL3MZ722LJOHJ2Fzp2Vfuv6TLrUJSK4Q
 6r6UjYUxssycfWv4+cFJID2fBGdtp+EnXOo6aufHD5HGv1fSmA6A+ud11rpnd8jD
 K1CwHmNRjDKZ3UJTTQ==
 -----END CERTIFICATE-----
+
+# Signature Algorithm=
+# Serial=076F124681459C28D548D697C40E001B
+# Subject=
+#  C=GB
+#  ST=Greater Manchester
+#  L=Salford
+#  O=COMODO CA Limited
+#  CN=PositiveSSL CA 2
+# Issuer=
+#  C=SE
+#  O=AddTrust AB
+#  OU=AddTrust External TTP Network
+#  CN=AddTrust External CA Root
+# NotBefore=Thu, 16 Feb 2012 00:00:00 GMT
+# NotAfter=Sat, 30 May 2020 10:48:38 GMT
+# Fingerprint (SHA-1)=94807B1C788DD2FCBE19C8481CE41CFAB8A4C17F
 
 -----BEGIN CERTIFICATE-----
 MIIE5TCCA82gAwIBAgIQB28SRoFFnCjVSNaXxA4AGzANBgkqhkiG9w0BAQUFADBv
