@@ -14,18 +14,22 @@ defaultRules = do
 
 main :: IO ()
 main = hakyll $ do
+    -- Static files
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
-
-    match "css/*" $ do
-        route   idRoute
-        compile compressCssCompiler
 
     match "js/*" $ do
         route   idRoute
         compile copyFileCompiler
 
+    -- CSS
+    match "css/*" $ do
+        route   idRoute
+        compile compressCssCompiler
+
+    -- Templates
     match "templates/*" $ compile templateCompiler
 
+    -- Markdown
     match ("**.md" .&&. complement "README.md") $ defaultRules
