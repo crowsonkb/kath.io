@@ -19,6 +19,8 @@ Email address
 PGP key
 -------
 
+[Mirror 1](http://keys.gnupg.net:11371/pks/lookup?op=get&search=0x40B55FA208BB5D76128F01577632E05C337359FC), [Mirror 2](http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x40B55FA208BB5D76128F01577632E05C337359FC)
+
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1
