@@ -2,7 +2,6 @@
 title: Katherine Crowson
 ---
 
-
 Katherine Crowson
 =================
 
