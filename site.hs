@@ -9,7 +9,7 @@ defaultRules :: Rules ()
 defaultRules = do
     route $ setExtension "html"
     compile $ pandocCompilerWith defaultHakyllReaderOptions myWriterOptions
-        >>= loadAndApplyTemplate "templates/default.html" defaultContext            
+        >>= loadAndApplyTemplate "templates/default.html" defaultContext
         >>= relativizeUrls
 
 main :: IO ()
