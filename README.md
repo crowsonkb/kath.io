@@ -1,7 +1,7 @@
 kath.io
 =======
 
-Hakyll source for <https://kath.io/>.
+Hakyll source for <https://kath.io/>. The CSS/HTML5 layout is FreshPick from <http://www.styleshout.com/>.
 
 Installation instructions
 -------------------------
