@@ -77,11 +77,17 @@ audio:not([controls]) {
 [hidden] { display: none; }
 
 code, kbd, pre, samp {
+   background-color: #f4f4f4;
    font-family: monospace, serif;
-   font-size: 1em;
+   font-size: 90%;
 }
 
 pre {
+   border: 1px solid #ddd;
+   border-radius: 3px;
+   display: inline-block;
+   line-height: 1.4;
+   padding: 8px 16px;
    white-space: pre;
    white-space: pre-wrap;
    word-wrap: break-word;
@@ -140,7 +146,7 @@ body {
    background: #fff url(../images/bg.png);
 	font: normal 16px/30px "Noticia text", Serif;
 	color: #737373;
-   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+   /* -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 }
 

@@ -1,13 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/default.css">
     <title>$title$</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 <body>
+<div id="content-wrap">
+<div id="more-articles" class="container">
+<div class="cf">
 $body$
+</div>
+</div>
+</div>
+<footer class="container">
+     <div id="footer-bottom" class="grid12 first">
+      <p>Design by <a href="http://www.styleshout.com/">styleshout</a>
+        <!-- Back To Top Button -->
+        <div id="go-top"><a href="#" title="Back to Top">Go To Top</a></div>
+     </div>
+</footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/custom.js"></script>
 <script>
     var sc_project=9512418;
     var sc_invisible=1;
