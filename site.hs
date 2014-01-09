@@ -5,13 +5,6 @@ import Text.Pandoc
 myWriterOptions :: WriterOptions
 myWriterOptions = defaultHakyllWriterOptions { writerHtml5 = True }
 
-defaultRules :: Rules ()
-defaultRules = do
-    route $ setExtension "html"
-    compile $ pandocCompilerWith defaultHakyllReaderOptions myWriterOptions
-        >>= loadAndApplyTemplate "templates/default.html" defaultContext
-        >>= relativizeUrls
-
 main :: IO ()
 main = hakyll $ do
     -- Static files
@@ -31,5 +24,15 @@ main = hakyll $ do
     -- Templates
     match "templates/*" $ compile templateCompiler
 
-    -- Markdown
-    match ("**.md" .&&. complement "README.md") $ defaultRules
+    -- Markdown error pages
+    match "error/*.md" $ do
+    route $ setExtension "html"
+    compile $ pandocCompilerWith defaultHakyllReaderOptions myWriterOptions
+        >>= loadAndApplyTemplate "templates/default.html" defaultContext
+
+    -- Markdown content
+    match ("**.md" .&&. complement "README.md") $ do
+    route $ setExtension "html"
+    compile $ pandocCompilerWith defaultHakyllReaderOptions myWriterOptions
+        >>= loadAndApplyTemplate "templates/default.html" defaultContext
+        >>= relativizeUrls
