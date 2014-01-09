@@ -2,8 +2,9 @@
 import Hakyll
 import Text.Pandoc
 
-myWriterOptions :: WriterOptions
-myWriterOptions = defaultHakyllWriterOptions { writerHtml5 = True }
+myCompiler :: Compiler (Item String)
+myCompiler = pandocCompilerWith defaultHakyllReaderOptions myWriterOptions
+    where myWriterOptions = defaultHakyllWriterOptions { writerHtml5 = True }
 
 main :: IO ()
 main = hakyll $ do
@@ -27,12 +28,12 @@ main = hakyll $ do
     -- Markdown error pages
     match "error/*.md" $ do
     route $ setExtension "html"
-    compile $ pandocCompilerWith defaultHakyllReaderOptions myWriterOptions
+    compile $ myCompiler
         >>= loadAndApplyTemplate "templates/default.html" defaultContext
 
     -- Markdown content
     match ("**.md" .&&. complement "README.md") $ do
     route $ setExtension "html"
-    compile $ pandocCompilerWith defaultHakyllReaderOptions myWriterOptions
+    compile $ myCompiler
         >>= loadAndApplyTemplate "templates/default.html" defaultContext
         >>= relativizeUrls
