@@ -57,10 +57,10 @@ jQuery.fn.unselectText = function() {
   window.getSelection().removeAllRanges();
 }
 
-$('.pgp').mouseover(function() {
+$('.pgp').mouseenter(function() {
     $(this).selectText();
 });
 
-$('.pgp').mouseout(function() {
+$('.pgp').mouseleave(function() {
     $(this).unselectText();
 });
