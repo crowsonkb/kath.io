@@ -27,13 +27,13 @@ main = hakyll $ do
 
     -- Markdown error pages
     match "error/*.md" $ do
-    route   $ setExtension "html"
-    compile $ myCompiler
-        >>= loadAndApplyTemplate "templates/default.html" defaultContext
+        route   $ setExtension "html"
+        compile $ myCompiler
+            >>= loadAndApplyTemplate "templates/default.html" defaultContext
 
     -- Markdown content
     match ("**.md" .&&. complement "README.md") $ do
-    route   $ setExtension "html"
-    compile $ myCompiler
-        >>= loadAndApplyTemplate "templates/default.html" defaultContext
-        >>= relativizeUrls
+        route   $ setExtension "html"
+        compile $ myCompiler
+            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= relativizeUrls
