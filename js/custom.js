@@ -4,7 +4,7 @@
 /*
 -----------------------------------------------------------------------------------*/
 
-jQuery(document).ready(function() {
+$(document).ready(function() {
 
 /*----------------------------------------------------*/
 /*  Back To Top Button
@@ -15,26 +15,26 @@ jQuery(document).ready(function() {
     var scrollSpeed = 300;//how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
 
     // Show or hide the sticky footer button
-    jQuery(window).scroll(function() {
+    $(window).scroll(function() {
 
-        if (jQuery(window).scrollTop() >= pxShow) {
-            jQuery("#go-top").fadeIn(fadeInTime);
+        if ($(window).scrollTop() >= pxShow) {
+            $("#go-top").fadeIn(fadeInTime);
         } else {
-            jQuery("#go-top").fadeOut(fadeOutTime);
+            $("#go-top").fadeOut(fadeOutTime);
         }
 
     });
 
     // Animate the scroll to top
-    jQuery("#go-top a").click(function() {
-        jQuery("html, body").animate({scrollTop:0}, scrollSpeed);
+    $("#go-top a").click(function() {
+        $("html, body").animate({scrollTop:0}, scrollSpeed);
         return false;
     });
 
 /*----------------------------------------------------*/
 /*  Select PGP key
 /*----------------------------------------------------*/
-    jQuery.fn.selectText = function() {
+    $.fn.selectText = function() {
         var range, selection;
         return this.each(function() {
             if (document.body.createTextRange) {
@@ -51,15 +51,15 @@ jQuery(document).ready(function() {
         });
     };
 
-    jQuery.fn.unselectText = function() {
+    $.fn.unselectText = function() {
         window.getSelection().removeAllRanges();
     }
 
-    $('.pgp').mouseenter(function() {
+    $(".pgp").mouseenter(function() {
         $(this).selectText();
     });
 
-    $('.pgp').mouseleave(function() {
+    $(".pgp").mouseleave(function() {
         $(this).unselectText();
     });
 
