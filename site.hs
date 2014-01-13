@@ -8,7 +8,7 @@ myCompiler = pandocCompilerWith defaultHakyllReaderOptions myWriterOptions
 
 copy :: Rules ()
 copy = do
-    route idRoute
+    route   idRoute
     compile copyFileCompiler
 
 main :: IO ()
