@@ -6,16 +6,16 @@ myCompiler :: Compiler (Item String)
 myCompiler = pandocCompilerWith defaultHakyllReaderOptions myWriterOptions
     where myWriterOptions = defaultHakyllWriterOptions { writerHtml5 = True }
 
+copy :: Rules ()
+copy = do
+    route idRoute
+    compile copyFileCompiler
+
 main :: IO ()
 main = hakyll $ do
     -- Static files
-    match "images/*" $ do
-        route   idRoute
-        compile copyFileCompiler
-
-    match "js/*" $ do
-        route   idRoute
-        compile copyFileCompiler
+    match "images/*" copy
+    match "js/*" copy
 
     -- CSS
     match "css/*" $ do
