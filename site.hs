@@ -1,4 +1,7 @@
+#!/usr/bin/env runhaskell
+
 {-# LANGUAGE OverloadedStrings #-}
+
 import Hakyll
 import Text.Pandoc
 
