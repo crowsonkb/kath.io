@@ -10,9 +10,7 @@ myCompiler = pandocCompilerWith defaultHakyllReaderOptions myWriterOptions
     where myWriterOptions = defaultHakyllWriterOptions { writerHtml5 = True }
 
 copy :: Rules ()
-copy = do
-    route   idRoute
-    compile copyFileCompiler
+copy = route idRoute >> compile copyFileCompiler
 
 main :: IO ()
 main = hakyll $ do
@@ -21,9 +19,7 @@ main = hakyll $ do
     match "js/*" copy
 
     -- CSS
-    match "css/*" $ do
-        route   idRoute
-        compile compressCssCompiler
+    match "css/*" $ route idRoute >> compile compressCssCompiler
 
     -- Templates
     match "templates/*" $ compile templateCompiler
