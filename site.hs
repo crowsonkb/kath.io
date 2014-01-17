@@ -5,9 +5,11 @@
 import Hakyll
 import Text.Pandoc
 
+wOptions :: WriterOptions
+wOptions = defaultHakyllWriterOptions { writerHtml5 = True }
+
 myCompiler :: Compiler (Item String)
-myCompiler = pandocCompilerWith defaultHakyllReaderOptions myWriterOptions
-    where myWriterOptions = defaultHakyllWriterOptions { writerHtml5 = True }
+myCompiler = pandocCompilerWith defaultHakyllReaderOptions wOptions
 
 copy :: Rules ()
 copy = route idRoute >> compile copyFileCompiler
