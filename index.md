@@ -10,7 +10,8 @@ Katherine Crowson
 About me
 --------
 
-My GitHub profile: <https://github.com/crowsonkb>
+ - [My Flickr photostream](https://www.flickr.com/photos/122140787@N03/)
+ - [My GitHub profile](https://github.com/crowsonkb)
 
 Email address
 -------------
