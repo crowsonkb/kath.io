@@ -7,8 +7,8 @@ openid2_provider: https://www.google.com/accounts/o8/ud
 Katherine Crowson
 =================
 
-About me
---------
+Links
+-----
 
  - [My Flickr photostream](https://www.flickr.com/photos/122140787@N03/)
  - [My GitHub profile](https://github.com/crowsonkb)
