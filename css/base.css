@@ -80,7 +80,8 @@ audio:not([controls]) {
 code, kbd, pre, samp {
     background-color: #f4f4f4;
     font-family: 'Inconsolata', monospace, serif;
-    font-size: 90%;
+    font-size: 92.5%;
+    letter-spacing: 0.025em;
 }
 
 pre {
