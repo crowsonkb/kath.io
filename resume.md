@@ -2,6 +2,7 @@
 title: Katherine Crowson’s Résumé
 ---
 
+<div style="float: left; text-align: center;">
 Katherine Crowson
 =================
 
@@ -10,6 +11,7 @@ Fremont, CA 94536
 <crowsonkb@gmail.com>  
 919-441-0271  
 <https://github.com/crowsonkb>
+</div><p style="clear: left;"></p>
 
 Skills
 ------
