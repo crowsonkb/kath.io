@@ -7,7 +7,8 @@ import Text.Pandoc
 
 wOptions :: WriterOptions
 wOptions = defaultHakyllWriterOptions { writerEmailObfuscation = NoObfuscation,
-                                        writerHtml5 = True }
+                                        writerHtml5 = True,
+                                        writerSectionDivs = True }
 
 myCompiler :: Compiler (Item String)
 myCompiler = pandocCompilerWith defaultHakyllReaderOptions wOptions
