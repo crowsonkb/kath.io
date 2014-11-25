@@ -29,6 +29,7 @@ e. Others
 @import url(//fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic);
 @import url(//fonts.googleapis.com/css?family=Domine:400,700);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import url(//fonts.googleapis.com/css?family=Inconsolata);
 
 /* ------------------------------------------------------------------ */
 /* b. Reset
@@ -78,7 +79,7 @@ audio:not([controls]) {
 
 code, kbd, pre, samp {
     background-color: #f4f4f4;
-    font-family: monospace, serif;
+    font-family: 'Inconsolata', monospace, serif;
     font-size: 90%;
 }
 
@@ -86,7 +87,7 @@ pre {
     border: 1px solid #ddd;
     border-radius: 3px;
     display: inline-block;
-    line-height: 1.4;
+    line-height: 1.1;
     margin: 0 0 24px 0;
     padding: 8px 16px;
     white-space: pre;
