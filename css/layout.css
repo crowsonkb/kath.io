@@ -129,7 +129,9 @@ footer {
 #content-wrap ul ul {
     list-style: circle outside;
 }
-
+#content-wrap li {
+    margin-bottom: 8px;
+}
 /* ------------------------------------------------------------------ */
 /* c. Header Styles
 /* ------------------------------------------------------------------ */

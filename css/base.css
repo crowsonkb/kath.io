@@ -147,7 +147,7 @@ table {
 
 body {
     background: #fff url(../images/bg.png);
-    font: normal 16px/30px "Noticia text", Serif;
+    font: normal 16px/22px "Noticia text", Serif;
     color: #737373;
     /* -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
