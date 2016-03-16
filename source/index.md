@@ -1,7 +1,5 @@
 ---
 title: Katherine Crowson
-openid2_local_id: https://profiles.google.com/117126865494380850149
-openid2_provider: https://www.google.com/accounts/o8/ud
 ---
 
 Katherine Crowson

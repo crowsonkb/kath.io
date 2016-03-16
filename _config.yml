@@ -1,0 +1,12 @@
+source: source
+markdown: Pandoc
+Pandoc:
+    extensions:
+        - email-obfuscation: none
+        - section-divs
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: default

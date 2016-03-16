@@ -1,6 +1,3 @@
-/_cache
+kath.io.key
 /_site
-/site
-*.key
-*.hi
-*.o
+.jekyll-metadata
