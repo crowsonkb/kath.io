@@ -6,8 +6,8 @@ title: Katherine Crowson’s Résumé
 Katherine Crowson
 =================
 
-38627 Cherry Ln Apt 107  
-Fremont, CA 94536  
+4500 NE 125th Pl Apt 22  
+Portland, OR 97230  
 <crowsonkb@gmail.com>  
 919-441-0271  
 <https://github.com/crowsonkb>
