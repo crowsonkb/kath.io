@@ -16,7 +16,8 @@ Portland, OR 97230
 Skills
 ------
 
-- Proficient with Linux/Unix, OS X, Windows, Python, Go, SQL (including database design), HTML, Java, C, Bash, and Perl.
+- Proficient with Linux/Unix, OS X, Windows, Python, Go, SQL (including database design), HTML5, Java, and Bash.
+- Familiar with C, JavaScript, and Perl.
 - Mathematical background includes data mining, numerical analysis, and linear algebra with a focus on solving eigenvector problems.
 - Knowledge of x86 assembly language.
 - Experience with computer and network troubleshooting, repair, and installation.
