@@ -6,7 +6,7 @@ title: Katherine Crowson’s Résumé
 Katherine Crowson
 =================
 
-4500 NE 125th Pl Apt 22  
+17734 NE Davis St  
 Portland, OR 97230  
 <crowsonkb@gmail.com>  
 919-441-0271  
