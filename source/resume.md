@@ -6,8 +6,8 @@ title: Katherine Crowson’s Résumé
 Katherine Crowson
 =================
 
-17734 NE Davis St  
-Portland, OR 97230  
+5121 SE 30th Ave #235  
+Portland, OR 97202  
 <crowsonkb@gmail.com>  
 919-441-0271  
 <https://github.com/crowsonkb>
