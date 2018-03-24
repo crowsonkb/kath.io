@@ -35,7 +35,7 @@ Experience
 
 - Replicated multiple results from researchers in the field.
 - Machine learning art project implementing image stylization.
-- Improving on state-of-the-art results, implementation of image stylization capable of generating arbitrarily large output images.
+- Improving on state-of-the-art results, implementation of image stylization capable of generating arbitrarily large output images using multiple GPUs.
 
 **Application Support Engineer, November 2012–November 2014  
 Google, Mountain View, CA**
