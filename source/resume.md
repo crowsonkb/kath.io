@@ -18,7 +18,7 @@ Skills
 
 - Proficient with Linux/Unix, OS X, Windows, Python, Go, SQL (including database design), HTML5, Java, and Bash.
 - Familiar with C, JavaScript (including jQuery), and Perl.
-- Mathematical background includes data mining, numerical analysis, and linear algebra with a focus on solving eigenvector problems.
+- Mathematical background includes machine learning, data mining, numerical analysis, and linear algebra.
 - Knowledge of x86 assembly language.
 - Experience with computer and network troubleshooting, repair, and installation.
 
@@ -28,10 +28,14 @@ Education
 **North Carolina State University, Fall 2002–Spring 2006  
 Bachelor of Science in Computer Science—GPA 3.18**
 
-The completion of my master's studies (which were the continuation of the "Research Assistant" job mentioned at the bottom of the "Experience" section) was placed on hold due to the events surrounding the death of my thesis advisor.
-
 Experience
 ----------
+
+**Machine learning self-study, July 2016–present**
+
+- Replicated multiple results from researchers in the field.
+- Machine learning art project implementing image stylization.
+- Improving on state-of-the-art results, implementation of image stylization capable of generating arbitrarily large output images.
 
 **Application Support Engineer, November 2012–November 2014  
 Google, Mountain View, CA**
