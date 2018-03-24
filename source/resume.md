@@ -31,7 +31,7 @@ Bachelor of Science in Computer Science—GPA 3.18**
 Experience
 ----------
 
-**Machine learning self-study, July 2016–present**
+**Machine learning self-study, July 2015–present**
 
 - Replicated multiple results from researchers in the field.
 - Machine learning art project implementing image stylization.
